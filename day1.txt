@@ -1,3 +1,172 @@
+Data in DBMS is:
+
+A collection of raw facts that are stored in a structured format to be retrieved, modified, and processed by a database.
+
+🔹 Example:
+Imagine a student database. The data could include:
+
+Student Name: "Parth Saini"
+
+Roll Number: 102
+
+Course: "Computer Science"
+
+Marks: 88
+
+Each of these values is data, and when organized in a structured table, they become information useful for queries and reports.
+
+🔹 Types of Data in DBMS:
+Numeric data – e.g., age, marks, salary
+
+Text data – e.g., names, addresses
+
+Date/time data – e.g., DOB, timestamps
+
+Boolean data – true/false values
+
+🔹 How is Data Stored?
+In tables (rows and columns)
+
+Each row = one record (e.g., one student)
+
+Each column = one attribute/field (e.g., name, age)
+
+Let me know if you’d like a diagram or explanation of how data is organized in tables.
+
+
+ What is a File System?
+A file system is a method and structure used by an operating system to store, organize, retrieve, and manage data on a storage device like a hard drive, SSD, or USB drive.
+
+🔹 Definition:
+A file system is a way of organizing and storing files on a storage medium, allowing users and programs to easily access and manage data.
+
+🔹 Functions of a File System:
+Organize files into directories/folders
+
+Track file locations on the disk
+
+Control access (permissions, read/write)
+
+Manage metadata (file name, size, date created, etc.)
+
+Support file operations – create, read, write, delete, etc.
+
+
+
+
+The main types of databases used in database management systems (DBMS):
+
+🔹 1. Relational Database (RDBMS)
+Stores data in tables (rows and columns)
+
+Tables can be linked using keys (Primary Key, Foreign Key)
+
+Uses SQL (Structured Query Language)
+
+✅ Example: MySQL, PostgreSQL, Oracle, Microsoft SQL Server
+✅ Use Case: Banking systems, student databases, inventory management
+
+🔹 2. NoSQL Database
+Non-tabular; stores data in formats like:
+
+Key-Value
+
+Document
+
+Column-Family
+
+Graph
+
+Good for big data, real-time apps, and unstructured data
+
+✅ Example: MongoDB (document), Redis (key-value), Cassandra (column), Neo4j (graph)
+✅ Use Case: Social networks, IoT, recommendation systems
+
+🔹 3. Hierarchical Database
+Data is organized in a tree-like structure (parent-child relationships)
+
+Fast access but not flexible for complex relationships
+
+✅ Example: IBM IMS
+✅ Use Case: File systems, legacy systems
+
+🔹 4. Network Database
+Similar to hierarchical, but allows many-to-many relationships using a graph structure
+
+More flexible than hierarchical
+
+✅ Example: Integrated Data Store (IDS), TurboIMAGE
+✅ Use Case: Telecom, transport networks
+
+🔹 5. Object-Oriented Database
+Stores data as objects (as in object-oriented programming)
+
+Supports features like inheritance, classes, polymorphism
+
+✅ Example: db4o, ObjectDB
+✅ Use Case: CAD/CAM systems, real-time systems, multimedia applications
+
+🔹 6. Distributed Database
+Data is stored across multiple physical locations (different computers or networks)
+
+Appears as a single database to users
+
+✅ Example: Apache Cassandra, Google Spanner
+✅ Use Case: Global applications, cloud-based systems
+
+🔹 7. Cloud Database
+Hosted on a cloud platform (like AWS, Azure, Google Cloud)
+
+Scalable, accessible from anywhere, pay-as-you-use model
+
+✅ Example: Amazon RDS, Google Cloud Firestore, Azure SQL
+✅ Use Case: Web apps, SaaS platforms
+
+🔹 8. Graph Database
+Designed to store data in nodes and edges (representing entities and their relationships)
+
+Efficient for relationship-heavy queries
+
+
+
+ What is Data Modeling?
+Data Modeling is the process of creating a visual representation of data and its relationships, used to design how data will be stored, organized, and accessed in a database.
+
+🔹 Definition:
+Data modeling is the process of defining and structuring data elements and their relationships for a specific business purpose, usually in the form of diagrams like ER (Entity-Relationship) models.
+
+🔹 Why is Data Modeling Important?
+Helps understand what data is needed and how it should be stored
+
+Ensures data consistency, accuracy, and efficiency
+
+Acts as a blueprint before building the actual database
+
+🔹 Levels of Data Modeling:
+Level	Description	Example
+1. Conceptual	High-level model showing main entities and relationships	e.g., Student ↔ Enrolls ↔ Course
+2. Logical	More detailed: includes attributes, primary/foreign keys, but not DBMS-specific	e.g., Student(Name, Roll No, Dept)
+3. Physical	Actual implementation in a specific DBMS (includes tables, datatypes, indexes)	e.g., CREATE TABLE statements in SQL
+
+🔹 Common Tools for Data Modeling:
+ER Diagram (Entity-Relationship Diagram)
+
+UML Class Diagrams
+
+Tools: dbdiagram.io, Lucidchart, ER/Studio, Oracle SQL Developer
+
+🔹 Key Terms in Data Modeling:
+Entity: A real-world object (e.g., Student, Teacher)
+
+Attribute: A property of an entity (e.g., Name, Age)
+
+Relationship: Association between entities (e.g., Student enrolls in Course)
+
+Primary Key: Unique identifier for a record
+
+Foreign Key: A reference to a primary key in another table
+
+
 What are Relational Databases?
 A Relational Database is a type of database that stores and organizes data in the form of tables (also called relations). It uses Structured Query Language (SQL) to access and manage the data.
 

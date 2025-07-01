@@ -1,0 +1,18 @@
+What are Relational Databases?
+A Relational Database is a type of database that stores and organizes data in the form of tables (also called relations). It uses Structured Query Language (SQL) to access and manage the data.
+
+🔹 Definition:
+A relational database is a database that stores data in rows and columns within tables, and allows relationships between data using keys.
+
+🔹 Key Features:
+Tables (Relations): Data is stored in structured tables.
+
+Rows (Records): Each row is a unique record.
+
+Columns (Fields): Each column represents an attribute of the data.
+
+Primary Key: A unique identifier for each row in a table.
+
+Foreign Key: A field that links one table to another, creating relationships.
+
+ 
